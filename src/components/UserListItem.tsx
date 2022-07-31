@@ -1,9 +1,10 @@
 import {Pressable, View, Text,StyleSheet,Image } from 'react-native'
 import React from 'react'
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 const UserListItem = ({ user , onPress }) => {
-  return (
-    <Pressable style={styles.root} onPress={onPress}
+  return (<GestureHandlerRootView style={{ flex: 1 }}>
+    <Pressable style={styles.root} onPress={()=>onPress(user)}
     
     
     >
@@ -11,6 +12,7 @@ const UserListItem = ({ user , onPress }) => {
         />
       <Text style={styles.name}>{user.name}</Text>
     </Pressable>
+    </GestureHandlerRootView>
   );
 };
 
