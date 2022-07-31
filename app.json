@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "Discord",
+    "name": "DiscordByNeon",
     "slug": "Discord",
+    "privacy": "public",
+    "description":"lqhdz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
