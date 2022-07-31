@@ -37,7 +37,7 @@ const UserListScreen = () =>{
         // <GestureHandlerRootView style={{ flex: 1 }}>
        <FlatList
         data ={users}
-         renderItem={({item}) => <UserListItem user={item} onPress={startChannel} />}
+         renderItem={({item}) => (<UserListItem user={item} onPress={startChannel} />)}
        
        />
     //    {/* </GestureHandlerRootView> */}

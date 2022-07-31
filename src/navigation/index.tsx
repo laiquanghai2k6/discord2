@@ -42,7 +42,9 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function RootNavigator() {
   const { userId } = useAuthContext();
-
+  if(!userId){
+    return <ActivityIndicator/>;
+  }
 
   return (
     <Stack.Navigator>
