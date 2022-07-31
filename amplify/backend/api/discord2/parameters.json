@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "discord2",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authDiscord2",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

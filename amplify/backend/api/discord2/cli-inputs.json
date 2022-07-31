@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "discord2",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Admin\\Discord\\amplify\\backend\\api\\discord2\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authDiscord2"
+    }
+  }
+}

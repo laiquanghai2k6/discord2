@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "streamKeyz",
+      "environmentVariableName": "STREAM_KEYZ"
+    },
+    {
+      "cloudFormationParameterName": "streamSecretz",
+      "environmentVariableName": "STREAM_SECRETZ"
+    }
+  ]
+}
